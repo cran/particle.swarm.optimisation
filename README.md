@@ -3,6 +3,7 @@
 ## Dependancies:
 
 python 3.8.1
+
 rgl 0.106.8
 
 ## Summary:
@@ -17,7 +18,7 @@ This package contains two class, the Particle class and the ParticleSwarm class,
 to make the PSO you need to create a ParticleSwarm object and call his method 'run'.
 
 
-## description of the different files and director:
+## description of the different files and directory:
 
 - vignettes/how-to-use-this.Rmd : This file is a Rmarkdown with the differents class and methods explain with exemple.
 - R/particle.R : This file contain the code for the Particle Class.

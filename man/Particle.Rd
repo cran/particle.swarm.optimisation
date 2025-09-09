@@ -61,17 +61,17 @@ print(particle_example)
 \section{Methods}{
 \subsection{Public methods}{
 \itemize{
-\item \href{#method-new}{\code{Particle$new()}}
-\item \href{#method-get_fitness}{\code{Particle$get_fitness()}}
-\item \href{#method-update}{\code{Particle$update()}}
-\item \href{#method-update_personal_best_fitness}{\code{Particle$update_personal_best_fitness()}}
-\item \href{#method-print}{\code{Particle$print()}}
-\item \href{#method-clone}{\code{Particle$clone()}}
+\item \href{#method-Particle-new}{\code{Particle$new()}}
+\item \href{#method-Particle-get_fitness}{\code{Particle$get_fitness()}}
+\item \href{#method-Particle-update}{\code{Particle$update()}}
+\item \href{#method-Particle-update_personal_best_fitness}{\code{Particle$update_personal_best_fitness()}}
+\item \href{#method-Particle-print}{\code{Particle$print()}}
+\item \href{#method-Particle-clone}{\code{Particle$clone()}}
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-new"></a>}}
-\if{latex}{\out{\hypertarget{method-new}{}}}
+\if{html}{\out{<a id="method-Particle-new"></a>}}
+\if{latex}{\out{\hypertarget{method-Particle-new}{}}}
 \subsection{Method \code{new()}}{
 Create a new Particle object.
 \subsection{Usage}{
@@ -104,8 +104,8 @@ A new \code{Particle} object.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-get_fitness"></a>}}
-\if{latex}{\out{\hypertarget{method-get_fitness}{}}}
+\if{html}{\out{<a id="method-Particle-get_fitness"></a>}}
+\if{latex}{\out{\hypertarget{method-Particle-get_fitness}{}}}
 \subsection{Method \code{get_fitness()}}{
 Calculate the fitness of the particle with the fitness function and save it in self$fitness
 \subsection{Usage}{
@@ -117,8 +117,8 @@ self
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-update"></a>}}
-\if{latex}{\out{\hypertarget{method-update}{}}}
+\if{html}{\out{<a id="method-Particle-update"></a>}}
+\if{latex}{\out{\hypertarget{method-Particle-update}{}}}
 \subsection{Method \code{update()}}{
 Update Particle's position and velocity.
 \subsection{Usage}{
@@ -137,8 +137,8 @@ self
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-update_personal_best_fitness"></a>}}
-\if{latex}{\out{\hypertarget{method-update_personal_best_fitness}{}}}
+\if{html}{\out{<a id="method-Particle-update_personal_best_fitness"></a>}}
+\if{latex}{\out{\hypertarget{method-Particle-update_personal_best_fitness}{}}}
 \subsection{Method \code{update_personal_best_fitness()}}{
 Update the Particle's best values and fitness.
 \subsection{Usage}{
@@ -150,8 +150,8 @@ self
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-print"></a>}}
-\if{latex}{\out{\hypertarget{method-print}{}}}
+\if{html}{\out{<a id="method-Particle-print"></a>}}
+\if{latex}{\out{\hypertarget{method-Particle-print}{}}}
 \subsection{Method \code{print()}}{
 print the current values of the particle and his fitness
 \subsection{Usage}{
@@ -160,8 +160,8 @@ print the current values of the particle and his fitness
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-clone"></a>}}
-\if{latex}{\out{\hypertarget{method-clone}{}}}
+\if{html}{\out{<a id="method-Particle-clone"></a>}}
+\if{latex}{\out{\hypertarget{method-Particle-clone}{}}}
 \subsection{Method \code{clone()}}{
 The objects of this class are cloneable with this method.
 \subsection{Usage}{

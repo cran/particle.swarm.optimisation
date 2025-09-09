@@ -95,20 +95,20 @@ print(swarm$swarm_best_values)
 \section{Methods}{
 \subsection{Public methods}{
 \itemize{
-\item \href{#method-new}{\code{ParticleSwarm$new()}}
-\item \href{#method-run}{\code{ParticleSwarm$run()}}
-\item \href{#method-generate_pop}{\code{ParticleSwarm$generate_pop()}}
-\item \href{#method-move_the_swarm}{\code{ParticleSwarm$move_the_swarm()}}
-\item \href{#method-save_pop}{\code{ParticleSwarm$save_pop()}}
-\item \href{#method-plot_the_swarm_2D}{\code{ParticleSwarm$plot_the_swarm_2D()}}
-\item \href{#method-plot_the_swarm_3D}{\code{ParticleSwarm$plot_the_swarm_3D()}}
-\item \href{#method-print}{\code{ParticleSwarm$print()}}
-\item \href{#method-clone}{\code{ParticleSwarm$clone()}}
+\item \href{#method-ParticleSwarm-new}{\code{ParticleSwarm$new()}}
+\item \href{#method-ParticleSwarm-run}{\code{ParticleSwarm$run()}}
+\item \href{#method-ParticleSwarm-generate_pop}{\code{ParticleSwarm$generate_pop()}}
+\item \href{#method-ParticleSwarm-move_the_swarm}{\code{ParticleSwarm$move_the_swarm()}}
+\item \href{#method-ParticleSwarm-save_pop}{\code{ParticleSwarm$save_pop()}}
+\item \href{#method-ParticleSwarm-plot_the_swarm_2D}{\code{ParticleSwarm$plot_the_swarm_2D()}}
+\item \href{#method-ParticleSwarm-plot_the_swarm_3D}{\code{ParticleSwarm$plot_the_swarm_3D()}}
+\item \href{#method-ParticleSwarm-print}{\code{ParticleSwarm$print()}}
+\item \href{#method-ParticleSwarm-clone}{\code{ParticleSwarm$clone()}}
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-new"></a>}}
-\if{latex}{\out{\hypertarget{method-new}{}}}
+\if{html}{\out{<a id="method-ParticleSwarm-new"></a>}}
+\if{latex}{\out{\hypertarget{method-ParticleSwarm-new}{}}}
 \subsection{Method \code{new()}}{
 Create a new ParticleSwarm object.
 \subsection{Usage}{
@@ -162,8 +162,8 @@ swarm <- ParticleSwarm$new(pop_size=20,
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-run"></a>}}
-\if{latex}{\out{\hypertarget{method-run}{}}}
+\if{html}{\out{<a id="method-ParticleSwarm-run"></a>}}
+\if{latex}{\out{\hypertarget{method-ParticleSwarm-run}{}}}
 \subsection{Method \code{run()}}{
 Make the Particle Swarm Optimisation
 \subsection{Usage}{
@@ -214,8 +214,8 @@ print(swarm$swarm_best_values)
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-generate_pop"></a>}}
-\if{latex}{\out{\hypertarget{method-generate_pop}{}}}
+\if{html}{\out{<a id="method-ParticleSwarm-generate_pop"></a>}}
+\if{latex}{\out{\hypertarget{method-ParticleSwarm-generate_pop}{}}}
 \subsection{Method \code{generate_pop()}}{
 create the population of the swarm (this method is automatically called by the run method)
 \subsection{Usage}{
@@ -234,8 +234,8 @@ self
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-move_the_swarm"></a>}}
-\if{latex}{\out{\hypertarget{method-move_the_swarm}{}}}
+\if{html}{\out{<a id="method-ParticleSwarm-move_the_swarm"></a>}}
+\if{latex}{\out{\hypertarget{method-ParticleSwarm-move_the_swarm}{}}}
 \subsection{Method \code{move_the_swarm()}}{
 The method used to change the location of each particle (this method is automatically called by the run method)
 \subsection{Usage}{
@@ -254,8 +254,8 @@ self
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-save_pop"></a>}}
-\if{latex}{\out{\hypertarget{method-save_pop}{}}}
+\if{html}{\out{<a id="method-ParticleSwarm-save_pop"></a>}}
+\if{latex}{\out{\hypertarget{method-ParticleSwarm-save_pop}{}}}
 \subsection{Method \code{save_pop()}}{
 The method used to save the values and fitness of the population in a CSV file (this method is automatically called by the run method if you have chosen to save the result)
 \subsection{Usage}{
@@ -276,8 +276,8 @@ self
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-plot_the_swarm_2D"></a>}}
-\if{latex}{\out{\hypertarget{method-plot_the_swarm_2D}{}}}
+\if{html}{\out{<a id="method-ParticleSwarm-plot_the_swarm_2D"></a>}}
+\if{latex}{\out{\hypertarget{method-ParticleSwarm-plot_the_swarm_2D}{}}}
 \subsection{Method \code{plot_the_swarm_2D()}}{
 method used to plot a 2D plot (this method is automatically called by the run method if you have chosen to plot the swarm)
 \subsection{Usage}{
@@ -298,8 +298,8 @@ self
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-plot_the_swarm_3D"></a>}}
-\if{latex}{\out{\hypertarget{method-plot_the_swarm_3D}{}}}
+\if{html}{\out{<a id="method-ParticleSwarm-plot_the_swarm_3D"></a>}}
+\if{latex}{\out{\hypertarget{method-ParticleSwarm-plot_the_swarm_3D}{}}}
 \subsection{Method \code{plot_the_swarm_3D()}}{
 method used to plot a 3D plot
 \subsection{Usage}{
@@ -320,8 +320,8 @@ self
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-print"></a>}}
-\if{latex}{\out{\hypertarget{method-print}{}}}
+\if{html}{\out{<a id="method-ParticleSwarm-print"></a>}}
+\if{latex}{\out{\hypertarget{method-ParticleSwarm-print}{}}}
 \subsection{Method \code{print()}}{
 Print the current result of the population
 \subsection{Usage}{
@@ -330,8 +330,8 @@ Print the current result of the population
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-clone"></a>}}
-\if{latex}{\out{\hypertarget{method-clone}{}}}
+\if{html}{\out{<a id="method-ParticleSwarm-clone"></a>}}
+\if{latex}{\out{\hypertarget{method-ParticleSwarm-clone}{}}}
 \subsection{Method \code{clone()}}{
 The objects of this class are cloneable with this method.
 \subsection{Usage}{
